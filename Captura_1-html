@@ -10,7 +10,6 @@
 
     <header>
         <h1>ENCABEZADO NIVEL 1</h1>
-        
         <nav>
             <a href="https://drive.google.com/drive/folders/1pQeVBt5OxVg_-wPyqJEkmQkUFDcV_K2h"> ENLACE 1</a>
             <a href="https://drive.google.com/drive/folders/1pQeVBt5OxVg_-wPyqJEkmQkUFDcV_K2h"> ENLACE 2</a>
@@ -46,7 +45,7 @@
     </main> 
     
     <footer>
-        <p>Sección de información de contacto, derechos de autor, etc</p>
+        <p>Sección de información de contacto, derechos de autor, etc.</p>
     </footer>
     
 </body>
