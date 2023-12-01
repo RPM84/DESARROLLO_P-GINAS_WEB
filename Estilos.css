@@ -1,13 +1,47 @@
 body
 {
-background-color: #73BFAA;
+    background-color: #73BFAA;
+    text-align: center;
 }
+
 header
 {
-background-color: #322e2f;
-color: #C5D9C8;
+    background-color: #322E2F;
+    color: #C5D9C8;
 }
+
+header h1
+{
+    text-transform: uppercase;    
+}
+
 nav
 {
-background-color: #C5D9C8;
+    background-color: #C5D9C8; ;
+}
+
+nav a
+{
+    color: #000000;
+    text-transform: none;
+}
+
+main
+{
+    background-color: #C5D9C8;
+}
+
+section
+{
+    background-color: #14B5D9;
+}
+
+article
+{
+    background-color: #D91494;
+}
+
+footer
+{
+    background-color: #E2D810;
 }
