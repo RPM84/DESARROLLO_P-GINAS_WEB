@@ -8,8 +8,9 @@ body
 {
     background-color: #73BFAA;
     text-align: center;
-    width: 600px;
+    width: 700px;
     margin:auto;
+    padding: 30px 0;
 }
 
 header
@@ -34,7 +35,7 @@ nav
 nav a
 {
     color: #000000;
-    text-transform: none;
+    text-decoration: none;
     margin: 0 25px;
 }
 
@@ -43,20 +44,57 @@ main
     background-color: #C5D9C8;
     margin: 10px 0;
     padding: 1%;
+    height: 220px;              /*SE ASIGNA UN ALTO FIJO DE MAIN (CAJA PADRE) CUANDO SE HACEN FLOTANTES LAS CAJAS HIJAS*/
+}
+
+section, article
+{
+    box-sizing: border-box;
+    height: 100%;               /*SE ASIGNA UN ALTO FIJO PARA LAS CAJAS HIJAS PROPORCIONAL A LA CAJA PADRE MAIN*/ 
+    padding: 10px;              /*SE UTILIZA PARA SEPARAR LAS LETRAS DE LOS BORDES*/
 }
 
 section
 {
     background-color: #14B5D9;
-    box-sizing: border-box;
-    width: 400px;
-    height: 64px;
+    float: left;
+    width: 74.5%;              /*MEDIDA PARA DEJAR ESPACIO ENTRE LAS 2 CAJAS*/
+    /*box-sizing: border-box;   RPM
+    width: 400px;               RPM
+    height: 64px;               RPM*/
+}
+
+section h2
+{
+    margin: 25px 0 40px 0;
+
+}
+
+section p
+{
+    margin: 25px;
 }
 
 article
 {
     background-color: #D91494;
-    po
+    float: right;
+    width: 24.5%;               /*MEDIDA PARA DEJAR ESPACIO ENTRE LAS 2 CAJAS*/
+}
+
+article h2
+{
+    margin: 25px 0 10px 0;  
+}
+
+article p
+{
+    margin: 5px;
+}
+
+.submit                        /*HAY QUE AGREGAR EN EL HTML LA CLASE PARA QUE FUNCIONE*/ 
+{
+    margin: 10px;
 }
 
 footer
