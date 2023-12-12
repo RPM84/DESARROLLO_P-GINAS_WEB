@@ -16,16 +16,23 @@ header
 }
 nav
 {
+    box-sizing: border-box;
+    height: 45px;
+    width: 1278;
+    padding: 10px;
+}
+/*nav
+{
     position: absolute;
     top: 50px;
     left: 1100px;
-}
-nav a
+}*/
+/*nav a
 {
     color: #A2ABA8;
     text-decoration: none;
     padding: 0 10px;
-}
+}*/
 main
 {
     background-image: url("CdMx.jpg");
